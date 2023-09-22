@@ -4,7 +4,7 @@ pipeline{
         stage('Source'){
             steps{
                 git 'https://github.com/mohdfaqruddin01/foodinc-end-user-app.git'
-                
+
                 sh "npm install"
                 echo 'Source Stage Finished'
             }
